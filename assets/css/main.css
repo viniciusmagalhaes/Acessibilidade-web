@@ -1,0 +1,57 @@
+/* ============================= Main ======================== */
+.main {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #000;
+}
+
+/* ============================= Article ======================== */
+.article {
+  border-bottom: 1px solid #fff;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.article p {
+  color: #ccc;
+}
+
+.title,
+.article__title a {
+  color: #fff;
+}
+
+.title {
+  margin-bottom: 1em;
+}
+
+
+/* ============================= MEdia ======================== */
+.media {
+  margin-bottom: 1em;
+}
+
+
+
+.footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+.footer .center {
+  display: block;
+  text-align: center;
+}
+
+
+/* ============================= MEdia ======================== */
+legend,
+label {
+  color: #ccc;
+}
+
+textarea {
+  width: 100%;
+}

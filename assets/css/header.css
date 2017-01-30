@@ -1,0 +1,38 @@
+/* ============================= HEADER ======================== */
+.header {
+  border-bottom: 1px solid #000;
+}
+
+.header__bar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #000;
+}
+
+/* ============================= HEADER - content ======================== */
+.header__content {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.logo {
+  width: 5em;
+  font-size: 1em;
+  margin: 0;
+}
+
+
+/* ============================= Acesskey ======================== */
+.accesskey__item {
+  font-size: 1em;
+  color: #fff;
+}
+
+.accesskey__item:not(:first-child)::before {
+  content: "•";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1em;
+  margin-left: 1em;
+}
